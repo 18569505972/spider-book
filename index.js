@@ -3,7 +3,7 @@ const fs = require('fs');
 const cheerio = require('cheerio');
 const classUrl = require('./module/class');
 //抓取地址
-var indexUrl = "http://www.liuxd.com/";
+var indexUrl = "XXX";
 //抓取首页数据
 function sendRequest(url) {
     http.get(url, function(res) {
