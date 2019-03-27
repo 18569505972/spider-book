@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+    let num = ()=>{
+    	console.log(1)
+    }
+    let count = async () => {
+        var num3 = await num()
+        var num3 = await num()
+    }
+    let asyncfunc = async() => {
+        var num1 = await count()
+        var num2 = await count()
+        try {
+            throw ('666666')
+        } catch (err) {
+            console.log(err)
+        }
+        var num3 = await count()
+    }
+    asyncfunc().catch((err) => {
+        console.log(err)
+    })
+    </script>
+</body>
+
+</html>

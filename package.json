@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/18569505972/spider-book.git"
+    "url": "git+https://github.com/XXX"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/18569505972/spider-book/issues"
+    "url": "https://github.com/XXX"
   },
-  "homepage": "https://github.com/18569505972/spider-book#readme",
+  "homepage": "https://github.com/XXX",
   "dependencies": {
     "crawler": "^1.2.0"
   }
